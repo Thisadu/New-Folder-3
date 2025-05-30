@@ -55,3 +55,15 @@ h1::selection{
     background-color: chocolate;
     color: white;
 }
+
+@media (max-width:600px){
+    body {
+        background-color: coral;
+    }
+}
+
+@media (min-width:700px){
+    body {
+        background-color: darkgreen;
+    }
+}
